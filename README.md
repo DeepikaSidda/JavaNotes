@@ -1,5 +1,5 @@
 # JavaNotes
-# Java Syntax
+## Java Syntax
 
 - Every line of Java code must be inside a **class**.
 - The **class name** should start with an uppercase letter (by convention), e.g., `MyClass`.
