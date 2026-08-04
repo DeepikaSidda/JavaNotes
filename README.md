@@ -28,6 +28,32 @@ The `main()` method is the entry point of every Java program. It is where the pr
 ```java
 public static void main(String[] args)
 ```
+## `System.out.println()`
+
+`System.out.println()` is used to **print text or values to the screen**.
+
+#### Example
+
+```java
+public static void main(String[] args) {
+    System.out.println("Hello World");
+}
+```
+
+**Output:**
+```text
+Hello World
+```
+
+#### Simple Breakdown
+
+- `System` → Built-in Java class.
+- `out` → Represents output.
+- `println()` → Prints the content and moves to a **new line**.
+- `{ }` → Marks the beginning and end of a block of code.
+- `;` → Every Java statement must end with a **semicolon**.
+
+> **Simple meaning:** `System.out.println()` = **"Print this on the screen and move to the next line."**
 
 Any code placed inside the `main()` method will be executed.
 
