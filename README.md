@@ -31,12 +31,3 @@ public static void main(String[] args)
 
 Any code placed inside the `main()` method will be executed.
 
-#### Example
-
-```java
-public class MyClass {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
