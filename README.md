@@ -128,5 +128,19 @@ Comments are used to **explain the code** and make it easier to understand. They
 
 - `//` → **Single-line comment** (used for a comment on one line).
 - `/* ... */` → **Multi-line comment** (used for comments that span multiple lines).
+---
+### Adding Spaces and Commas
 
-> **Note:** Comments are only for programmers to read. They do not affect how the program runs.
+`System.out.print()` does **not** automatically add spaces or commas between values. If you want spaces (`" "`) or commas (`", "`), you must include them yourself in the string.
+
+#### Example
+
+```java
+System.out.print("Apple, " + "Banana, " + "Orange");
+```
+
+**Output:**
+
+```text
+Apple, Banana, Orange
+```
