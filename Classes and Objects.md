@@ -125,13 +125,9 @@ class
 Car car1
 ```
 
-The first `Car` tells Java that `car1` can refer to a `Car` object. It's the reference variable's type.
+'car1' is a reference variable that can refer to a Car object.
 
-## 8. `car1`
 
-`car1` is a **reference variable** that refers to a `Car` object.
-
-Beginners often say "car1 is the object." Technically, that's not quite correct.
 
 ## 9. `new Car()`
 
