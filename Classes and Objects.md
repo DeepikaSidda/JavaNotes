@@ -428,14 +428,14 @@ Student s1 = new Student();
 Student s2 = new Student();
 
 s1.name = "Deepika"; s1.age = 21;
-s2.name = "Rahul";   s2.age = 22;
+s2.name = "kanna";   s2.age = 22;
 ```
 
 ```
 s1                       s2
  ↓                        ↓
 ┌─────────────────┐      ┌─────────────────┐
-│ name = Deepika  │      │ name = Rahul    │
+│ name = Deepika  │      │ name = Kanna    │
 │ age = 21        │      │ age = 22        │
 └─────────────────┘      └─────────────────┘
 ```
@@ -444,7 +444,7 @@ The same method operates on the particular object that called it.
 
 ## 27. Why do we need Objects?
 
-A class defines *what a student should have*, but an app must represent individual entities: Deepika, Rahul, Priya, Kiran.
+A class defines *what a student should have*, but an app must represent individual entities: Deepika, kanna, Priya, Kiran.
 
 ```
 Class   → defines the structure
@@ -464,46 +464,3 @@ Objects → represent individual entities
 
 Technical point: `car1` itself is a reference variable, while the object is created by `new Car()`.
 
-## 29. The Most Important Line
-
-```java
-Car car1 = new Car();
-```
-
-Read it as: *"Create a new Car object and store a reference to that object in car1."*
-
-```
-Car       car1       =       new Car();
- ↑         ↑                     ↑
-type    reference             creates
-        variable              object
-```
-
-## ⭐ Final Mental Model
-
-```
-CLASS                       CLASS
-┌─────────────┐               Car
-│ House       │                ↓
-│ rooms       │        ┌───────┼────────┐
-│ color       │        ↓       ↓        ↓
-│ doors       │       car1    car2     car3
-└─────────────┘        ↓       ↓        ↓
-      ↓              Toyota    BMW     Honda
- House1 House2       White    Black     Red
-```
-
-Remember these 5 things:
-
-1. **Class** → blueprint / template
-2. **Object** → actual instance created from the class
-3. **new** → creates the object
-4. **Reference variable** → holds a reference to the object
-5. One class can create many independent objects
-
-The most important line:
-
-```java
-Car car1 = new Car();
-// Car = type/class → car1 = reference → new Car() = creates the object
-```
