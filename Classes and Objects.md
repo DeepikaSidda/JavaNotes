@@ -114,7 +114,8 @@ This line has three important parts:
 ```
 Car        car1        new Car()
  ↑          ↑             ↑
-class/type     reference      creates
+class
+/type     reference      creates
          variable       object
 ```
 
