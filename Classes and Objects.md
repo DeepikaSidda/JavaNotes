@@ -1,5 +1,5 @@
 
-# Java Classes and Objects — A Beginner's Guide
+# Java Classes and Objects 
 
 ## 1. First understand the big picture
 
