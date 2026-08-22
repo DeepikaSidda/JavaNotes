@@ -124,8 +124,7 @@ class
 ```java
 Car car1
 ```
-
-'car1' is a reference variable that can refer to a Car object.
+means car1 can refer to an object of the Car class.
 
 
 
