@@ -395,7 +395,7 @@ s1.name = "Deepika";
 s1.age = 21;
 ```
 
-State of `s1`: `name = Deepika`, `age = 21`. Another object with `name = Rahul`, `age = 22` has a different state.
+State of `s1`: `name = Deepika`, `age = 21`. Another object with `name = Kanna`, `age = 22` has a different state.
 
 ## 25. What is Behavior?
 
